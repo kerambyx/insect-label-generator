@@ -146,7 +146,7 @@ def load_csv(path):
             loc = (g("country").upper(), g("province"), g("city"), g("locality"),
                    g("latitude"), g("longitude"), g("elevation"),
                    g("date"), g("collector"))
-            idd = (g("order").upper(), g("family"), g("genus"), g("species"), g("det."))
+            idd = (g("order").upper(), g("family"), g("genus"), g("species"), g("det"))
             rows.append((loc, idd))
     return rows
 
