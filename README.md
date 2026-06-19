@@ -6,3 +6,10 @@ Python script that generates customizable insect labels based on CSV data. Uses 
 ```
 $ python gen_labels.py labels.csv
 ```
+
+CSV should be formatted with columns as follows:
+
+```
+country,province,city,locality,latitude,longitude,elevation,date,collector,order,family,genus,species,det.
+```
+
