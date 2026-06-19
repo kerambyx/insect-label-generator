@@ -16,7 +16,7 @@ CSV_PATH = sys.argv[1] if len(sys.argv) > 1 else "labels.csv"
 OUTPUT   = os.path.splitext(CSV_PATH)[0] + "_labels.pdf"
 
 # --- Font Customization ---
-USE_CUSTOM_FONT = True
+USE_CUSTOM_FONT = False
 FONT_NAME        = "Charter"
 FONT_FILE_REG   = "Charter Regular.ttf"         # Standard style font file
 FONT_FILE_ITALIC = "Charter Italic.ttf"  # Italic style font file (for species)
